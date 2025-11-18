@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MediaPipe Object Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Object Detection Demo</h1>
+    <p>Wait for the model to load, then click "Enable Webcam"</p>
+    
+    <div id="liveView" class="videoView">
+        <button id="webcamButton" class="mdc-button mdc-button--raised">
+            <span class="mdc-button__ripple"></span>
+            <span class="mdc-button__label">ENABLE WEBCAM</span>
+        </button>
+        <div style="position: relative;">
+            <video id="webcam" autoplay playsinline></video>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
