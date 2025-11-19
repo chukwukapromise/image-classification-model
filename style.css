@@ -1,6 +1,11 @@
 body {
+    align-items: center;
     font-family: sans-serif;
     margin: 2em;
+}
+
+content {
+    align-items: center;
 }
 
 h1 { color: #007f8b; }
