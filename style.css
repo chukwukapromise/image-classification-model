@@ -79,6 +79,7 @@ section {
   position: absolute;
 }
 
+<<<<<<< HEAD
 .detectOnClick {
   z-index: 0;
 }
@@ -173,4 +174,14 @@ section {
 
 .detectOnClick img {
   width: 100%;
+=======
+.p-info {
+    z-index: 1;
+    position: absolute;
+    background-color: #007f8b;
+    color: white;
+    padding: 2px;
+    font-size: 12px;
+    margin: 0;
+>>>>>>> fb5d25b51bfc0f3cb8e9f16d0716b34e8e016ca9
 }
